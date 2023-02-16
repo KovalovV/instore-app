@@ -1,0 +1,14 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.root {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+
+  @include flex-center;
+  width: 100vw;
+  height: 100vh;
+  background-color: $color-white;
+  z-index: 10000;
+}

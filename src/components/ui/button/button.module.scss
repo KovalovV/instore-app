@@ -1,0 +1,67 @@
+@import "styles/variables";
+@import "styles/functions";
+
+.root {
+  font-size: $font-md;
+  font-weight: 600;
+  color: $color-white;
+
+  background-color: $color-black;
+
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.size {
+  &_small {
+    padding: spacing(0.5);
+  }
+
+  &_medium {
+    padding: spacing(1.5);
+  }
+}
+
+.variant {
+  &_alpha {
+    background-color: rgba(227, 150, 74, 0.24);
+  }
+
+  &_solid {
+    background-color: $color-black;
+  }
+
+  &_blur {
+    background-color: rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(4px);
+  }
+
+  &_gray {
+    background-color: rgba(0, 0, 0, 0.06);
+  }
+}
+
+.color {
+  &_white {
+    color: $color-white;
+  }
+
+  &_black {
+    color: $color-black;
+  }
+
+  &_orange {
+    color: $color-orange;
+  }
+}

@@ -1,0 +1,22 @@
+@import "styles/variables";
+@import "styles/functions";
+
+.root {
+  position: relative;
+  width: 100%;
+
+  border-radius: spacing(2);
+  overflow: hidden;
+
+  img {
+    width: 100%;
+  }
+}
+
+.proposal {
+  position: absolute;
+  top: 50%;
+  left: spacing(3);
+
+  transform: translateY(-50%);
+}

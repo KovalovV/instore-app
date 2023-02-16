@@ -1,0 +1,20 @@
+@import "styles/variables";
+@import "styles/functions";
+
+.root {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.error {
+  position: absolute;
+  bottom: spacing(0.7);
+  left: 0;
+
+  width: 100%;
+
+  font-size: $font-xs;
+  color: $color-red;
+}

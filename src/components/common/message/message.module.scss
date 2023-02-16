@@ -1,0 +1,23 @@
+@import "styles/variables";
+@import "styles/functions";
+@import "styles/mixins";
+
+.root {
+  @include flex-center;
+  width: 100%;
+}
+
+.container {
+  max-width: 300px;
+  text-align: center;
+
+  svg {
+    width: 64px;
+    height: 64px;
+  }
+
+  p {
+    color: $color-gray;
+    margin-bottom: spacing(2);
+  }
+}

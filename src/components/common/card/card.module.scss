@@ -1,0 +1,54 @@
+@import "styles/variables";
+@import "styles/functions";
+
+.root {
+  background-color: $color-white;
+}
+
+.size {
+  &_small {
+    padding: spacing(0.5);
+  }
+
+  &_medium {
+    padding: spacing(1.5);
+  }
+}
+
+.color {
+  &_gray50 {
+    background-color: $color-gray50;
+  }
+}
+
+.padding {
+  &_xs {
+    padding: spacing(1.5);
+  }
+
+  &_sm {
+    padding: spacing(1.75);
+  }
+
+  &_md {
+    padding: spacing(2);
+  }
+
+  &_lg {
+    padding: spacing(3);
+  }
+}
+
+.borderRadius {
+  &_sm {
+    border-radius: spacing(1.75);
+  }
+
+  &_md {
+    border-radius: spacing(2);
+  }
+
+  &_lg {
+    border-radius: spacing(3);
+  }
+}

@@ -1,0 +1,16 @@
+@import "styles/variables";
+@import "styles/functions";
+@import "styles/mixins";
+
+.root {
+  display: flex;
+  align-items: center;
+  gap: spacing(1.5);
+
+  margin-bottom: spacing(4);
+
+  h1 {
+    font-size: $font-lg;
+    line-height: 1;
+  }
+}

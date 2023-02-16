@@ -1,0 +1,40 @@
+@import "styles/variables";
+@import "styles/functions";
+
+.root {
+  display: flex;
+  gap: spacing(1);
+}
+
+.input {
+  text-align: center;
+}
+
+.variant {
+  &_alpha {
+    background-color: rgba(227, 150, 74, 0.24);
+  }
+
+  &_solid {
+    background-color: $color-black;
+  }
+
+  &_blur {
+    background-color: rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(4px);
+  }
+}
+
+.color {
+  &_white {
+    color: $color-white;
+  }
+
+  &_black {
+    color: $color-black;
+  }
+
+  &_orange {
+    color: $color-orange;
+  }
+}
