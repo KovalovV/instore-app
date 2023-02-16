@@ -1,0 +1,11 @@
+@import "styles/functions";
+@import "styles/mixins";
+
+.root {
+  @include flex-center;
+  gap: spacing(1);
+
+  margin-bottom: spacing(1.5);
+
+  cursor: pointer;
+}

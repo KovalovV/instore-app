@@ -1,0 +1,51 @@
+@import "styles/variables";
+@import "styles/functions";
+
+.root {
+  background-color: $color-gray50;
+  border-radius: spacing(2);
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: spacing(2);
+  }
+
+  figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: spacing(3);
+}
+
+.category {
+  color: $color-gray;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.title,
+.price {
+  color: $color-black;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.title {
+  font-weight: 400;
+}
+
+.price {
+  font-weight: 600;
+}

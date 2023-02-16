@@ -1,0 +1,25 @@
+@import "styles/variables";
+@import "styles/functions";
+
+.root {
+  padding: spacing(3) 0 spacing(8) 0;
+}
+
+.wrapper {
+  margin-top: spacing(6);
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: spacing(2);
+
+  margin-top: spacing(2);
+}
+
+.products {
+  display: flex;
+  gap: spacing(2);
+
+  margin-top: spacing(2);
+}

@@ -1,0 +1,21 @@
+@import "styles/variables";
+@import "styles/functions";
+
+.root {
+  font-size: $font-md;
+  font-weight: 400;
+  color: $color-black;
+
+  border: 2px solid rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+}
+
+.size {
+  &_small {
+    padding: spacing(0.5) spacing(2);
+  }
+
+  &_medium {
+    padding: spacing(1.5) spacing(3);
+  }
+}

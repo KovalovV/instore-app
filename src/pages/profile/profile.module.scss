@@ -1,0 +1,33 @@
+@import "styles/variables";
+@import "styles/functions";
+@import "styles/mixins";
+
+.root {
+  @include flex-center;
+  flex: 1 1 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.form {
+  padding: spacing(2);
+  border-radius: 32px;
+
+  width: 100%;
+}
+
+.field {
+  margin-bottom: spacing(2.5);
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: spacing(2);
+}

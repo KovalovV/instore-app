@@ -1,0 +1,22 @@
+@import "styles/variables";
+@import "styles/functions";
+@import "styles/mixins";
+
+.root {
+  @include flex-center;
+
+  width: 100%;
+  padding: spacing(3) 0;
+
+  margin-top: auto;
+
+  border-top: 1px solid $color-gray;
+
+  span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: $color-gray;
+  }
+}

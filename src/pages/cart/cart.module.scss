@@ -1,0 +1,43 @@
+@import "styles/functions";
+@import "styles/mixins";
+
+.root {
+  padding: spacing(3) 0 spacing(8) 0;
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+  gap: spacing(6);
+}
+
+.products {
+  flex: 0 1 70%;
+
+  display: flex;
+  flex-direction: column;
+  gap: spacing(2);
+}
+
+.summary {
+  flex: 0 1 30%;
+
+  display: flex;
+  flex-direction: column;
+  gap: spacing(2);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+
+  color: $color-gray;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  p {
+    color: $color-black;
+    font-weight: 600;
+  }
+}

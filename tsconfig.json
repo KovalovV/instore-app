@@ -15,8 +15,9 @@
     "isolatedModules": false,
     "noEmit": true,
     "baseUrl": "src",
+    "types": ["node"],
     "jsx": "react-jsx"
   },
   "exclude": ["node_modelus", "public"],
-  "include": ["src", "./parcel.d.ts"]
+  "include": ["src", "src/declaration.d.ts"]
 }
